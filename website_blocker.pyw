@@ -39,7 +39,7 @@ def reset_hosts():
 if is_admin():
     # //mainprogram starts here
     while True:
-        if dt.now().strftime("%a") != (holiday_1 or holiday_2):
+        if dt.now().strftime("%a") != (holiday_1.title() or holiday_2.title()):
             if dt(dt.now().year,dt.now().month,dt.now().day,start_time) < dt.now() < dt(dt.now().year,dt.now().month,dt.now().day,end_time):
                 add_hosts()
                 print("working hours.....")
