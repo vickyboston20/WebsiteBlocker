@@ -16,6 +16,7 @@ To change this host file you need administrative privilege
   1.2 Create New Task
   
   1.3 Setup
+  
       //General Tab
       1.3.1 Give Name
       1.3.2 check Run with highest Privileges
