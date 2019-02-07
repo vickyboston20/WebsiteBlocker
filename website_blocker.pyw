@@ -1,4 +1,17 @@
 import ctypes, sys
+import time
+from datetime import datetime as dt
+
+#For Windows
+HostPath = r"C:\Windows\System32\drivers\etc\hosts"
+#For Mac and Linux
+#HostPath = r"\etc\hosts"
+redirect = "127.0.0.1"
+
+website_to_blocks = ["www.facebook.com","facebook.com","youtube.com","www.youtube.com"]
+
+start_time = 8
+end_time = 16
 
 def is_admin():
     try:
@@ -7,20 +20,7 @@ def is_admin():
         return False
 
 if is_admin():
-    # Code of your program here
-    import time
-    from datetime import datetime as dt
-    #For Windows
-    HostPath = r"C:\Windows\System32\drivers\etc\hosts"
-    #For Mac and Linux
-    #HostPath = r"\etc\hosts"
-    redirect = "127.0.0.1"
-
-    website_to_blocks = ["www.facebook.com","facebook.com","youtube.com","www.youtube.com"]
-
-    start_time = 8
-    end_time = 16
-
+    # //mainprogram starts here
     while True:
         if dt(dt.now().year,dt.now().month,dt.now().day,start_time) < dt.now() < dt(dt.now().year,dt.now().month,dt.now().day,end_time):
             print("working hours.....")
