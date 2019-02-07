@@ -54,12 +54,12 @@ Open website_blocker.pyw
 
 Enter new websites in the variable(with quotes)
 
-  3.1 website_to_blocks
+    3.1 website_to_blocks
 
 //To change the time
 
 Enter the value in the variable
 
-  4.1 start_time
+    4.1 start_time
 
-  4.2 end_time
+    4.2 end_time
