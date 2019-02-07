@@ -4,6 +4,7 @@ Use this to stay away from distraction while working and studying
 //---------------------------------Run Scripts ----------------------------------//
 
 For Windows:
+
 Host file location: C:\Windows\System32\drivers\etc\hosts
 
 To Run Python script without console you need pythonw.exe in your installation directory and File should be in .pyw extensions
@@ -31,12 +32,15 @@ To change this host file you need administrative privilege
 
 
 For Mac and Linux:
+
 Host file location: \etc\hosts
 
 To Run Python script, File should be in .py extensions
 
 To change this host file you need administrative privilege
+
     2.1 sudo crontab -e
+    
     2.2 Add Following line(Path to the python file or scripts)
     
         @reboot python3 /home/username/applications/website_blocker.py
