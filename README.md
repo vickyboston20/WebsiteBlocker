@@ -49,13 +49,17 @@ To change this host file you need administrative privilege
   //----------------------------------------Change Time and Block Websites-----------------------//
 
 Open website_blocker.pyw
+
 //To add Websites
 
-Enter new websites in the variable(with quotes):
-website_to_blocks
+Enter new websites in the variable(with quotes)
+
+  3.1 website_to_blocks
 
 //To change the time
-Enter the value in the variable:
-start_time
 
-end_time
+Enter the value in the variable
+
+  4.1 start_time
+
+  4.2 end_time
