@@ -3,7 +3,7 @@
 
 //---------------------------------Run Scripts ----------------------------------//
 
-For Windows:
+# For Windows:
 
 Host file location: C:\Windows\System32\drivers\etc\hosts
 
@@ -32,7 +32,7 @@ To change this host file you need administrative privilege
       1.3.8 Ok
 
 
-For Mac and Linux:
+# For Mac and Linux:
 
 Host file location: \etc\hosts
 
