@@ -1,5 +1,6 @@
 import ctypes, sys
 HostPath = r"C:\Windows\System32\drivers\etc\hosts"
+#HostPath = r"\etc\hosts"
 website_to_blocks = ["www.facebook.com","facebook.com","youtube.com","www.youtube.com"]
 def is_admin():
     try:
