@@ -34,7 +34,7 @@ To change this host file you need administrative privilege
 
 # For Mac and Linux:
 
-Host file location: \etc\hosts
+Host file location: /etc/hosts
 
 To Run Python script, File should be in .py extensions
 
@@ -44,7 +44,7 @@ To change this host file you need administrative privilege
 
     2.2 Add Following line(Path to the python file or scripts)
 
-        @reboot python3 /home/username/applications/website_blocker.py
+        @reboot python3 /home/username/applications/website_blocker_mac_or_linux.py
 
 //-----------------------Change Time and Block Websites-----------------------//
 
