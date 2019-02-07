@@ -56,13 +56,21 @@ Enter new websites in the variable(with quotes)
 
     3.1 website_to_blocks
 
+# To add Holiday 
+
+Enter the day (3 letters inside the string) in the variable
+
+    4.1 holiday_1
+    
+    4.2 holiday_2
+    
 # To change the time
 
 Enter the value in the variable
 
-    4.1 start_time
+    5.1 start_time
 
-    4.2 end_time
+    5.2 end_time
 
 //--------------------------ToReset the host file----------------------------//
 
