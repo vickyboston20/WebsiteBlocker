@@ -1,7 +1,7 @@
 # Website Blocker
 # Use this to stay away from distraction while working and studying
 
-//---------------------------------Run Scripts ----------------------------------//
+//---------------------------------Run Scripts -------------------------------//
 
 # For Windows:
 
@@ -12,11 +12,11 @@ To Run Python script without console you need pythonw.exe in your installation d
 To change this host file you need administrative privilege
 
   1.1 open Task Scheduler(built-in app)
-  
+
   1.2 Create New Task
-  
+
   1.3 Setup
-  
+
       //General Tab
       1.3.1 Give Name
       1.3.2 check Run with highest Privileges
@@ -41,12 +41,12 @@ To Run Python script, File should be in .py extensions
 To change this host file you need administrative privilege
 
     2.1 sudo crontab -e
-    
+
     2.2 Add Following line(Path to the python file or scripts)
-    
+
         @reboot python3 /home/username/applications/website_blocker.py
 
-  //----------------------------------------Change Time and Block Websites-----------------------//
+//-----------------------Change Time and Block Websites-----------------------//
 
 Open website_blocker.pyw
 
@@ -63,3 +63,4 @@ Enter the value in the variable
     4.1 start_time
 
     4.2 end_time
+
