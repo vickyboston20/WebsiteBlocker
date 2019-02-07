@@ -64,3 +64,10 @@ Enter the value in the variable
 
     4.2 end_time
 
+//--------------------------ToReset the host file----------------------------//
+
+# To Reset Host file
+
+Run the reset.py
+
+
