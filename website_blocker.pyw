@@ -10,9 +10,9 @@ if is_admin():
     # Code of your program here
     import time
     from datetime import datetime as dt
-
+    #For Windows
     HostPath = r"C:\Windows\System32\drivers\etc\hosts"
-    HostTemp = r"C:\Users\vicky\websiteblocker\hosts"
+    #For Mac and Linux
     #HostPath = r"\etc\hosts"
     redirect = "127.0.0.1"
 
