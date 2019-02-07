@@ -1,5 +1,5 @@
 # Website Blocker
-Use this to stay away from distraction while working and studying
+# Use this to stay away from distraction while working and studying
 
 //---------------------------------Run Scripts ----------------------------------//
 
